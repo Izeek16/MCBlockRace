@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "blockrace",
+  "version": "${version}",
+  "name": "Block Race",
+  "description": "Head-to-head race: a random item is chosen, 15 second frozen countdown, then race to get it in your inventory first. Server-side only - vanilla clients can join.",
+  "authors": [
+    "toasterz"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.toasterz.blockrace.BlockRaceMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
